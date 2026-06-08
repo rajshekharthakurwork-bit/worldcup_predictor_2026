@@ -17,7 +17,7 @@
 
 ---
 
-**[📊 View Results](#-results) · [🚀 Quick Start](#-quick-start) · [🧠 How It Works](#-how-it-works) · [📁 Project Structure](#-project-structure)**
+**[📊 View Results](#-results) · [🚀 Quick Start](#-quick-start)  · [📁 Project Structure](#-project-structure)**
 
 </div>
 
@@ -87,31 +87,7 @@ This project builds a complete **Data Science pipeline** that:
 
 ---
 
-## 🚀 Quick Start
 
-### Prerequisites
-- Python 3.11+
-- ~500MB disk space
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/worldcup_predictor_2026.git
-cd worldcup_predictor_2026
-```
-
-### 2. Create Virtual Environment
-
-```bash
-# Create
-python -m venv venv
-
-# Activate — Windows
-venv\Scripts\activate
-
-# Activate — Mac/Linux
-source venv/bin/activate
-```
 
 ### 3. Install Dependencies
 
@@ -125,10 +101,7 @@ Download the **International Football Results** dataset from Kaggle:
 
 👉 [https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)
 
-Place the file at:
-```
-data/raw/results.csv
-```
+
 
 ### 5. Run Full Pipeline
 
@@ -270,59 +243,6 @@ worldcup_predictor_2026/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-```
-
----
-
-## 📦 Requirements
-
-```
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.5.1
-matplotlib==3.9.2
-seaborn==0.13.2
-joblib==1.4.2
-jupyter==1.0.0
-ipykernel==6.29.5
-```
-
-Install with:
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## 🎯 Usage Examples
-
-### Predict any match
-```bash
-python predict.py
-# Choose option 2
-# Enter: Brazil vs France
-```
-
-### Check a team's tournament chances
-```bash
-python predict.py
-# Choose option 3
-# Enter: Argentina
-```
-
-### Compare two teams
-```bash
-python predict.py
-# Choose option 5
-# Enter: Spain vs Germany
-```
-
-### Open interactive dashboard
-```bash
-python dashboard.py
-# Opens browser automatically
-```
-
 ---
 
 ## 🔮 Future Improvements

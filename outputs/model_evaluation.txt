@@ -1,0 +1,52 @@
+============================================================
+  2026 FIFA WORLD CUP PREDICTOR - MODEL EVALUATION
+============================================================
+
+Model: Logistic Regression
+----------------------------------------
+Accuracy: 0.6030 (60.30%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Away Win     0.5671    0.6332    0.5983      1314
+        Draw     0.5000    0.0088    0.0173      1022
+    Home Win     0.6213    0.8692    0.7246      2133
+
+    accuracy                         0.6030      4469
+   macro avg     0.5628    0.5037    0.4468      4469
+weighted avg     0.5776    0.6030    0.5258      4469
+
+Confusion Matrix:
+
+                       Predicted           
+              Away Win     Draw     Home Win 
+             ------------------------------
+       Away Win [   832       4       478    ]
+Actual Draw     [   361       9       652    ]
+       Home Win [   274       5       1854   ]
+
+Model: Random Forest
+----------------------------------------
+Accuracy: 0.6021 (60.21%)
+
+Classification Report:
+              precision    recall  f1-score   support
+
+    Away Win     0.5648    0.6370    0.5987      1314
+        Draw     0.6364    0.0068    0.0136      1022
+    Home Win     0.6206    0.8659    0.7230      2133
+
+    accuracy                         0.6021      4469
+   macro avg     0.6073    0.5033    0.4451      4469
+weighted avg     0.6078    0.6021    0.5242      4469
+
+Confusion Matrix:
+
+                       Predicted           
+              Away Win     Draw     Home Win 
+             ------------------------------
+       Away Win [   837       2       475    ]
+Actual Draw     [   361       7       654    ]
+       Home Win [   284       2       1847   ]
+

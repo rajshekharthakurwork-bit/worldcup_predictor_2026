@@ -36,9 +36,6 @@ This project builds a complete **Data Science pipeline** that:
 | 🏆 **Simulation** | Simulates the full 48-team tournament 10,000 times |
 | 📈 **Visualization** | Generates charts, heatmaps, and an HTML dashboard |
 
-## Dashboard review
-
-file:///C:/Users/raj_s/Downloads/worldcup_predictor_2026/outputs/dashboard.html
 
 ## 🏆 Predicted World Cup Podium
 

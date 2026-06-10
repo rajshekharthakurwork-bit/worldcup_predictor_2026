@@ -44,21 +44,26 @@ This project builds a complete **Data Science pipeline** that:
 
 ## 🏆 Results
 
-> *Based on 10,000 Monte Carlo simulations*
+## 🏆 Predicted World Cup Podium
 
-<div align="center">
+| Rank | Team | Champion Probability |
+|------|------|---------------------|
+| 🥇 | **Spain** | **17.8%** |
+| 🥈 | **Brazil** | **14.2%** |
+| 🥉 | **France** | **13.6%** |
 
-| 🥇 Rank | Team | Champion % | Reach Final % | Reach Semi % |
-|:---:|:---|:---:|:---:|:---:|
-| 🥇 | **Brazil** | ~19% | ~34% | ~50% |
-| 🥈 | **France** | ~16% | ~29% | ~45% |
-| 🥉 | **Argentina** | ~13% | ~25% | ~40% |
-| 4 | England | ~10% | ~21% | ~36% |
-| 5 | Spain | ~9% | ~19% | ~33% |
+### 📊 Simulation Summary
 
-*Exact values vary slightly between runs due to Monte Carlo randomness*
+| Metric | Value |
+|---------|--------|
+| Teams in Tournament | 48 |
+| Monte Carlo Simulations | 10,000 |
+| Random Forest Trees | 200 |
+| ML Features Used | 16 |
+| Highest Win Probability | 17.8% |
+| Model Test Accuracy | ~54% |
 
-</div>
+*Machine Learning predictions using Elo ratings, feature engineering, Random Forest classification, and 10,000 Monte Carlo simulations.*
 
 ### 📊 Charts
 

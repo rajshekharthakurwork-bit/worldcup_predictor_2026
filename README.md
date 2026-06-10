@@ -36,10 +36,30 @@ This project builds a complete **Data Science pipeline** that:
 | 🏆 **Simulation** | Simulates the full 48-team tournament 10,000 times |
 | 📈 **Visualization** | Generates charts, heatmaps, and an HTML dashboard |
 
-> **Why this project?** Standard match prediction models predict single outcomes.
-> This system predicts **probabilities** across an entire tournament using
-> Monte Carlo simulation — far more realistic and portfolio-worthy.
+## Dashboard review
 
+file:///C:/Users/raj_s/Downloads/worldcup_predictor_2026/outputs/dashboard.html
+
+## 🏆 Predicted World Cup Podium
+
+| Rank | Team | Champion Probability |
+|------|------|---------------------|
+| 🥇 | **Spain** | **17.8%** |
+| 🥈 | **Brazil** | **14.2%** |
+| 🥉 | **France** | **13.6%** |
+
+### 📊 Simulation Summary
+
+| Metric | Value |
+|---------|--------|
+| Teams in Tournament | 48 |
+| Monte Carlo Simulations | 10,000 |
+| Random Forest Trees | 200 |
+| ML Features Used | 16 |
+| Highest Win Probability | 17.8% |
+| Model Test Accuracy | ~54% |
+
+*Machine Learning predictions using Elo ratings, feature engineering, Random Forest classification, and 10,000 Monte Carlo simulations.*
 ---
 
 ## 🏆 Results

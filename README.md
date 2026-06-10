@@ -56,7 +56,7 @@ This project builds a complete **Data Science pipeline** that:
 | Highest Win Probability | 17.8% |
 | Model Test Accuracy | ~54% |
 
-*Machine Learning predictions using Elo ratings, feature engineering, Random Forest classification, and 10,000 Monte Carlo simulations.*
+Machine Learning predictions using Elo ratings, feature engineering, Random Forest classification, and 10,000 Monte Carlo simulations.
 ---
 
 ## 🏆 Results

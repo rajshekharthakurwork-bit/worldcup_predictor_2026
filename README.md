@@ -63,6 +63,9 @@ Machine Learning predictions using Elo ratings, feature engineering, Random Fore
 ---
 
 ## 🏆 Results
+Full Dashboard review:
+
+Run python dashborad.py in the terminal to see the dashboard
 
 ## 🏆 Predicted World Cup Podium
 

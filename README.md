@@ -2,6 +2,9 @@
 
 # 🌍 2026 FIFA World Cup Predictor
 
+<img width="1891" height="891" alt="Screenshot 2026-06-10 133731" src="https://github.com/user-attachments/assets/c125259a-18e3-4de6-a2fd-5347e852af61" />
+
+
 ### Machine Learning meets Football Analytics
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
